@@ -1,0 +1,21 @@
+body { font-family: sans-serif; margin: 0; background: #f4f6fa; }
+
+.header { display: flex; justify-content: space-between; padding: 12px 20px; background: #1a2340; color: white; }
+.header a { color: white; margin-left: 16px; text-decoration: none; }
+.header a.active { font-weight: bold; text-decoration: underline; }
+
+.content { max-width: 1000px; margin: 0 auto; padding: 20px; }
+
+.grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; }
+
+.two-cols { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
+
+.card { background: white; border: 1px solid #ccc; padding: 12px; }
+
+.field { display: flex; flex-direction: column; margin-bottom: 12px; }
+
+.error { color: #b00020; }
+.error-box { border: 1px solid #b00020; background: #fff0f0; padding: 10px; }
+
+.badge.available { background: #d8f5dc; }
+.badge.blocked { background: #ffd9d9; }
